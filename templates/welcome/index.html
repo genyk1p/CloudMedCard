@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block title %}{% endblock %}
+
+{% block hero %}
+    <section class="hero is-info">
+        <div class="hero-body">
+            <div class="container  notification is-info is-child">
+                <p class="title">
+                {% trans 'Welcome to xyz.com, the cloud medicine card Platform.' %}
+                </p>
+                <p class="subtitle">
+                {% trans "Here you can store your medical record, such as various tests or doctor's reports." %}
+                </p>
+            </div>
+        </div>
+    </section>
+{% endblock hero %}
+
+
+{% block content %}
+<div class="comment">
+    <h4 class="title is-4 ">{% trans 'Briefly about how it works:' %}</h4>
+    <p class="subtitle has-text-justified">
+        {% trans 'Very often, people are faced with the need to find a new doctor and provide him with their medical history, for example, various tests or diagnoses of previous doctors. Often This analyzes and conclusions are stored with us in paper form or as a set of photographs on the phone, and this is not very convenient. In this service, you can create and store your medical record along with the application of all the conclusions of doctors, analyzes and necessary digital data, such as tomogram results, ultrasound photographs, digitized x-rays, and so on.' %}
+     </p>
+    <br>
+   <h4 class="title is-4">{% trans 'A few words about the security of your data:' %}</h4>
+        <li>{% trans 'The xyz.com service stores all your digital data in a reliable cloud storage in compliance with the necessary security measures.' %}</li>
+        <li>{% trans 'Only you will have access to your data.' %}</li>
+        <li>{% trans 'You can delete all your private information at any time.' %}</li>
+        <li>{% trans 'Under no circumstances will our service disclose your private information or digital documents.' %}</li>
+        <br>
+    </div>
+{% endblock content %}

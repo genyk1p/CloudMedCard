@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bulma_tags %}
+
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+
+{% block content %}
+    <div class='notification is-info'>
+        {% trans 'To add an entry to the medical card, you must create a medical card' %}
+    </div>
+     <a class="button is-link" href="{% url 'mc-add' %}">{% trans 'Add medical card' %}</a>
+
+{% endblock content %}
+

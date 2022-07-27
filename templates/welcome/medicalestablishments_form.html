@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bulma_tags %}
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+{% block content %}
+    <h4 class="title is-5">{% trans 'Please add medical facilities using the form below.' %}</h4>
+    <div class="column is-5">
+{% if form != None %}
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form |bulma }}
+        <input type="submit" class="button is-link" value={% trans 'Add' %} />
+    </form>
+    {% endif %}
+    </div>
+{% endblock content %}

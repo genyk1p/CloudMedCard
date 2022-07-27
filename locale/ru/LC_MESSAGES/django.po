@@ -1,0 +1,2085 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-27 00:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\registration\views.py:36
+msgid "To confirm registration on https://xyz.com/ please follow the link "
+msgstr ""
+"Для завершения регистрации на https://xyz.com/ пожалуйста перейдите по "
+"ссылке "
+
+#: .\registration\views.py:37
+msgid "or enter this code "
+msgstr "или введите этот код "
+
+#: .\registration\views.py:38
+msgid " on the E-mail confirmation page. "
+msgstr " на странице подтверждения регистрационного кода. "
+
+#: .\registration\views.py:39
+msgid "E-mail confirmation code and link will be valid for 30 minutes. "
+msgstr "Код подтверждения и ссылка будут действительны в течении 30 минут. "
+
+#: .\registration\views.py:40
+msgid "Best wishes, administration of xyz.com"
+msgstr "С наилучшими пожеланиями, администрация xyz.com"
+
+#: .\registration\views.py:42
+msgid "Registrations on xyz.com "
+msgstr "Регистрация на xyz.com "
+
+#: .\templates\base.html:64
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: .\templates\base.html:72 .\templates\base.html:186
+msgid "Medical Card"
+msgstr "Медицинская карта"
+
+#: .\templates\base.html:74
+msgid "Editing a medical card"
+msgstr "Редактирование медицинской карты"
+
+#: .\templates\base.html:93 .\templates\base.html:206
+msgid "Doctors"
+msgstr "Врачи"
+
+#: .\templates\base.html:95
+msgid "Edit/View/Delete doctors"
+msgstr "Редактировать/Просмотреть/Удалить врачей"
+
+#: .\templates\base.html:115 .\templates\base.html:226
+#: .\templates\welcome\medicinecardinstance_list.html:15
+msgid "Medical facility"
+msgstr "Медицинское учреждение"
+
+#: .\templates\base.html:117
+msgid "Edit/View/Delete medical facilities"
+msgstr "Редактировать/Просмотреть/Удалить медицинское учреждение"
+
+#: .\templates\base.html:136 .\templates\base.html:246
+#: .\templates\welcome\medicinecardinstance_list.html:21
+msgid "Medical field"
+msgstr "Область медицины"
+
+#: .\templates\base.html:138
+msgid "Edit/View/Delete medical fields"
+msgstr "Редактировать/Просмотреть/Удалить область медицины"
+
+#: .\templates\base.html:157
+msgid "Entries in the medical record"
+msgstr "Записи в медицинской карте"
+
+#: .\templates\base.html:159
+msgid ""
+"In this section, you can view the list of entries in the medical card record "
+"and edit the necessary"
+msgstr ""
+"В этом разделе вы можете просмотреть список записей в медицинской карте и "
+"отредактировать необходимые"
+
+#: .\templates\base.html:178
+msgid "Adding entries"
+msgstr "Добавить записи"
+
+#: .\templates\base.html:188
+msgid "Creating a new medical card"
+msgstr "Создание новой медицинской карты"
+
+#: .\templates\base.html:208
+msgid "Addition of doctors who appear in the records"
+msgstr "Добавление врачей, фигурирующих в записях"
+
+#: .\templates\base.html:228
+msgid "Adding a medical facility"
+msgstr "Добавление медицинского учреждения"
+
+#: .\templates\base.html:248
+msgid ""
+"Adding a field of medicine that is used in your records, such as urology"
+msgstr ""
+"Добавление области медицины, которая используется в ваших записях, например "
+"урология"
+
+#: .\templates\base.html:266
+msgid "Entry in the medical record"
+msgstr "Запись в медицинской карте"
+
+#: .\templates\base.html:268
+msgid ""
+"Adding an entry to the medical record, you can attach the results of studies "
+"or a doctor's opinion to this entry."
+msgstr ""
+"Добавляя запись в медицинскую карту, вы можете прикрепить к этой записи "
+"результаты исследований или заключение врача."
+
+#: .\templates\base.html:289
+msgid "Change language"
+msgstr "Изменение языка"
+
+#: .\templates\base.html:364
+msgid "Cloud medical record"
+msgstr "Облачная медицинская карта"
+
+#: .\templates\base.html:364
+msgid "Evgen Kukoba"
+msgstr "Евгений Кукоба"
+
+#: .\templates\notification\create_medical_card_for_mci.html:10
+msgid "To add an entry to the medical card, you must create a medical card"
+msgstr ""
+"Для добавления записи в медицинскую карту, вам нужно создать медицинскую "
+"карту"
+
+#: .\templates\notification\create_medical_card_for_mci.html:12
+msgid "Add medical card"
+msgstr "Добавление медицинской карты"
+
+#: .\templates\notification\delete_doctor_notification.html:10
+msgid ""
+"There are several records in your medical card in which this doctor is "
+"indicated, in order to remove this doctor, first delete these records or "
+"specify a different doctor for them."
+msgstr ""
+"Есть несколько записей в вашей медицинской карты в которых указан этот врач, "
+"для удаления этого врача, сначала удалите эти записи из медицинской карты "
+"или укажите для них другого врача"
+
+#: .\templates\notification\delete_mc_notification.html:10
+msgid "You already have a medical card."
+msgstr "Вы уже имеете медицинскую карту"
+
+#: .\templates\notification\delete_medical_establishment_notification.html:10
+msgid ""
+"There are several records in your medical record in which this medical "
+"facility is indicated, in order to delete this medical facility, first "
+"delete these records or specify another medical facility for them."
+msgstr ""
+"Есть несколько записей в вашей медицинской карты в которых указано это "
+"медицинское учреждение, для удаления этого медицинского учреждения, сначала "
+"удалите эти записи из медицинской карты или укажите для них другое "
+"медицинское учреждение"
+
+#: .\templates\notification\delete_medical_field_notification.html:10
+msgid ""
+"There are several records in your medical record in which this field of "
+"medicine is indicated, in order to delete this field of medicine, first "
+"delete these records or specify a different field of medicine for them."
+msgstr ""
+"Есть несколько записей в вашей медицинской карты в которых указана эта "
+"область медицины, для удаления выбранной области медицины, сначала удалите "
+"эти записи из медицинской карты или укажите для них другую область медицины"
+
+#: .\templates\registration\enter_email_confirm_code.html:4
+msgid ""
+"To complete registration, follow the link sent to the e-mail that You "
+"specified during registration or enter the verification code below."
+msgstr ""
+"Для завершения регистрации, пожалуйста перейдите по ссылке которую мы "
+"отправили на Вашу почту или введите проверочный код указанный ниже."
+
+#: .\templates\registration\enter_email_confirm_code.html:5
+msgid ""
+"If You have not received an e-mail within 10 minutes, please check Your spam "
+"folder."
+msgstr ""
+"Если Вы не получили регистрационное письмо в течении 10 минут, пожалуйста "
+"проверьте папку спам."
+
+#: .\templates\registration\enter_email_confirm_code.html:9
+msgid "Submit"
+msgstr "Применить"
+
+#: .\templates\registration\logged_out.html:5
+msgid "Thanks for spending some time with the Web site today."
+msgstr "Спасибо, что провели сегодня немного времени на нашем сайте. "
+
+#: .\templates\registration\logged_out.html:6
+#: .\venv\Lib\site-packages\bulma\templates\registration\logged_out.html:6
+msgid "Log in again"
+msgstr "Войти снова"
+
+#: .\templates\registration\login.html:7
+#: .\venv\Lib\site-packages\bulma\templates\registration\login.html:7
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+"Ваше имя пользователя и пароль не совпадают. Пожалуйста, попробуйте еще раз."
+
+#: .\templates\registration\login.html:9
+msgid "Please enter Your username (not email) and password."
+msgstr ""
+"Пожалуйста, введите Ваше имя пользователя (не адрес электронной почты) и "
+"пароль."
+
+#: .\templates\registration\login.html:13
+msgid "Reset password"
+msgstr "Сбросить пароль"
+
+#: .\templates\registration\login.html:15
+#: .\templates\registration\password_reset_complete.html:11
+#: .\venv\Lib\site-packages\bulma\templates\registration\login.html:14
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_complete.html:11
+msgid "Log in"
+msgstr "Авторизоваться"
+
+#: .\templates\registration\password_change_done.html:7
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_change_done.html:7
+msgid "Your password was changed."
+msgstr "Ваш пароль был изменен."
+
+#: .\templates\registration\password_change_form.html:13
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_change_form.html:13
+msgid "Please correct the error below."
+msgstr "Пожалуйста, исправьте ошибку ниже."
+
+#: .\templates\registration\password_change_form.html:14
+msgid "Please correct the errors below. "
+msgstr "Пожалуйста, исправьте ошибку ниже. "
+
+#: .\templates\registration\password_change_form.html:18
+msgid ""
+"Please enter Your old password, for security's sake, and then enter Your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Пожалуйста, введите свой старый пароль в целях безопасности, а затем дважды "
+"введите новый пароль, чтобы мы могли проверить, правильно ли вы ввели его."
+
+#: .\templates\registration\password_change_form.html:21
+#: .\templates\registration\password_reset_confirm.html:12
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_change_form.html:21
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_confirm.html:12
+msgid "Change my password"
+msgstr "Изменить пароль"
+
+#: .\templates\registration\password_reset_complete.html:9
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_complete.html:9
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Ваш пароль установлен. Вы можете войти в систему сейчас."
+
+#: .\templates\registration\password_reset_confirm.html:9
+msgid ""
+"Please enter Your new password twice so we can verify You typed it in "
+"correctly."
+msgstr ""
+"Пожалуйста, введите свой новый пароль дважды, чтобы мы могли убедиться, что "
+"Вы ввели его правильно."
+
+#: .\templates\registration\password_reset_confirm.html:15
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_confirm.html:15
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+"Ссылка для сброса пароля недействительна, возможно, потому, что она уже "
+"использовалась. Запросите новый сброс пароля."
+
+#: .\templates\registration\password_reset_done.html:8
+msgid ""
+"We've e-mailed You instructions for setting your password, if an account "
+"exists with the email You entered. You should receive them shortly."
+msgstr ""
+"Мы отправили Вам по электронной почте инструкции по установке пароля, если "
+"существует учетная запись с указанным Вами адресом электронной почты. Вы "
+"получите их в ближайшее время."
+
+#: .\templates\registration\password_reset_done.html:9
+msgid ""
+"If You don't receive an e-mail, please make sure You've entered the address "
+"You registered with, and check your spam folder."
+msgstr ""
+"Если Вы не получили письмо, пожалуйста убедитесь, что Вы ввели адрес "
+"электронной почты который Вы использовали при регистрации, и проверьте папку "
+"спам в своем почтовом ящике"
+
+#: .\templates\registration\password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because You requested a password reset for Your "
+"user account at\n"
+"    %(site_name)s."
+msgstr ""
+
+#: .\templates\registration\password_reset_email.html:5
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_email.html:5
+msgid "Please go to the following page and choose a new password:"
+msgstr "Перейдите на следующую страницу и выберите новый пароль:"
+
+#: .\templates\registration\password_reset_email.html:9
+msgid "Your username, in case You've forgotten:"
+msgstr "Ваше имя пользователя, если Вы забыли:"
+
+#: .\templates\registration\password_reset_email.html:11
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_email.html:11
+msgid "Thanks for using our site!"
+msgstr "Спасибо, что пользуетесь нашим сайтом!"
+
+#: .\templates\registration\password_reset_email.html:13
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_email.html:13
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: .\templates\registration\password_reset_form.html:7
+msgid ""
+"Forgotten Your password? Enter Your e-mail address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+"Забыли свой пароль? Введите свой адрес электронной почты ниже, и мы отправим "
+"Вам инструкции по установке нового адреса электронной почты."
+
+#: .\templates\registration\password_reset_form.html:10
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_form.html:10
+msgid "Reset my password"
+msgstr "Сбросить пароль"
+
+#: .\templates\registration\signup.html:4
+msgid "Registration on xyz.com"
+msgstr "Регистрация на xyz.com "
+
+#: .\templates\registration\signup.html:11
+msgid "Registration"
+msgstr "Регистрация нового пользователя"
+
+#: .\templates\temp\ShowMciForPrint.html:25
+#: .\templates\welcome\medicinecardinstance_detail.html:25
+msgid "Print or export to PDF"
+msgstr "Распечатать или экспортировать в PDF"
+
+#: .\templates\temp\ShowMciForPrint.html:27
+#: .\templates\welcome\Add_Attach_MedCardInst.html:10
+#: .\templates\welcome\medicinecardinstance_detail.html:27
+msgid "Registration number: "
+msgstr "Регистрационный номер: "
+
+#: .\templates\temp\ShowMciForPrint.html:28
+#: .\templates\welcome\Add_Attach_MedCardInst.html:11
+#: .\templates\welcome\medicinecardinstance_detail.html:28
+msgid "Date: "
+msgstr "Дата: "
+
+#: .\templates\temp\ShowMciForPrint.html:29
+#: .\templates\welcome\Add_Attach_MedCardInst.html:12
+#: .\templates\welcome\medicinecardinstance_detail.html:29
+msgid "Short description: "
+msgstr "Краткое описание: "
+
+#: .\templates\temp\ShowMciForPrint.html:30
+#: .\templates\welcome\Add_Attach_MedCardInst.html:13
+#: .\templates\welcome\medicinecardinstance_detail.html:30
+msgid "Full years at the time the record was created: "
+msgstr "Полных лет на момент создания записи: "
+
+#: .\templates\temp\ShowMciForPrint.html:31
+#: .\templates\welcome\Add_Attach_MedCardInst.html:14
+#: .\templates\welcome\medicinecardinstance_detail.html:31
+msgid "Medical field: "
+msgstr "Область медицины: "
+
+#: .\templates\temp\ShowMciForPrint.html:32
+#: .\templates\welcome\Add_Attach_MedCardInst.html:15
+#: .\templates\welcome\medicinecardinstance_detail.html:32
+msgid "Attending doctor: "
+msgstr "Лечащий врач: "
+
+#: .\templates\temp\ShowMciForPrint.html:33
+#: .\templates\welcome\Add_Attach_MedCardInst.html:16
+#: .\templates\welcome\medicinecardinstance_detail.html:33
+msgid "Medical facility: "
+msgstr "Лечебное учреждение: "
+
+#: .\templates\temp\ShowMciForPrint.html:34
+#: .\templates\welcome\Add_Attach_MedCardInst.html:17
+#: .\templates\welcome\medicinecardinstance_detail.html:34
+msgid "Description: "
+msgstr "Описание:"
+
+#: .\templates\welcome\Add_Attach_MedCardInst.html:21
+msgid "Attachments:"
+msgstr "Вложения:"
+
+#: .\templates\welcome\Add_Attach_MedCardInst.html:30
+msgid "Delete document"
+msgstr "Удалить документ"
+
+#: .\templates\welcome\Add_Attach_MedCardInst.html:33
+msgid "Download document"
+msgstr "Скачать документ"
+
+#: .\templates\welcome\Add_Attach_MedCardInst.html:50
+msgid "Upload"
+msgstr "Загрузить"
+
+#: .\templates\welcome\Add_Attach_MedCardInst.html:53
+msgid "Print entity or export to PDF"
+msgstr "Распечатать запись или экспортировать в PDF"
+
+#: .\templates\welcome\Add_Doctor_MF_MCI_ME.html:13
+#: .\templates\welcome\medicalestablishments_form.html:13
+#: .\templates\welcome\medicinecard_form.html:13
+msgid "Add"
+msgstr "Добавить"
+
+#: .\templates\welcome\DeleteDocument.html:4
+msgid "Viewing a Single Record"
+msgstr "Просмотр одной записи"
+
+#: .\templates\welcome\DeleteDocument.html:13
+msgid "Cancel"
+msgstr "Отмена"
+
+#: .\templates\welcome\DeleteDocument.html:20
+msgid "Back to medical record"
+msgstr "Обратно к записи в карте"
+
+#: .\templates\welcome\Doctors_form.html:7
+msgid "Edit doctor"
+msgstr "Редактировать врача: "
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:4
+msgid "Show medical establishment"
+msgstr ""
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:7
+msgid "Medical establishment list:"
+msgstr "Список лечебных учреждений: "
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:14
+msgid "Name/Address"
+msgstr "Имя/Адрес"
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:17
+#: .\templates\welcome\ShowDoctor_detail.html:17
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:20
+#: .\templates\welcome\MedicalEstablishment_detail.html:23
+#: .\templates\welcome\MedicalField_detail.html:17
+#: .\templates\welcome\MedicalField_detail.html:20
+#: .\templates\welcome\ShowDoctor_detail.html:20
+#: .\templates\welcome\ShowDoctor_detail.html:23
+msgid "Action"
+msgstr ""
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:26
+msgid "Site"
+msgstr "Сайт"
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:42
+#: .\templates\welcome\MedicalField_detail.html:29
+#: .\templates\welcome\ShowDoctor_detail.html:35
+msgid "Edit"
+msgstr "Редактировать"
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:45
+#: .\templates\welcome\MedicalField_detail.html:32
+#: .\templates\welcome\ShowDoctor_detail.html:38
+#: .\venv\Lib\site-packages\django\forms\formsets.py:433
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\welcome\MedicalEstablishment_detail.html:53
+msgid "You do not have medical establishment for edit."
+msgstr "У вас нет области медицины редактирования"
+
+#: .\templates\welcome\MedicalEstablishment_form.html:7
+msgid "Edit medical establishment"
+msgstr "Редактирование медицинского учреждения"
+
+#: .\templates\welcome\MedicalField_detail.html:4
+msgid "Show medical fields"
+msgstr "Показать Области медицины"
+
+#: .\templates\welcome\MedicalField_detail.html:7
+msgid "Medical fields list:"
+msgstr "Список областей медицины: "
+
+#: .\templates\welcome\MedicalField_detail.html:14
+#: .\templates\welcome\ShowDoctor_detail.html:14
+msgid "Name"
+msgstr "Имя"
+
+#: .\templates\welcome\MedicalField_detail.html:41
+#: .\templates\welcome\ShowDoctor_detail.html:46
+msgid "You do not have doctors for edit."
+msgstr "У вас нет доктора для удаления"
+
+#: .\templates\welcome\MedicalField_form.html:7
+msgid "Edit medical field"
+msgstr "Редактировать область медицины"
+
+#: .\templates\welcome\ShowDoctor_detail.html:4
+msgid "Show doctors"
+msgstr "Показать врачей"
+
+#: .\templates\welcome\ShowDoctor_detail.html:7
+msgid "Doctors list:"
+msgstr "Список врачей"
+
+#: .\templates\welcome\doctors_confirm_delete.html:7
+msgid "Are you sure you want to delete doctor?"
+msgstr "Вы уверены, что хотите удалить этого доктора? "
+
+#: .\templates\welcome\doctors_confirm_delete.html:8
+#: .\templates\welcome\medicalestablishments_confirm_delete.html:8
+#: .\templates\welcome\medicalfield_confirm_delete.html:8
+msgid "Name: "
+msgstr "Имя"
+
+#: .\templates\welcome\doctors_confirm_delete.html:9
+#: .\templates\welcome\medicalestablishments_confirm_delete.html:9
+msgid "Phone number: "
+msgstr "Номер телефона: "
+
+#: .\templates\welcome\doctors_confirm_delete.html:14
+#: .\templates\welcome\medicalestablishments_confirm_delete.html:16
+#: .\templates\welcome\medicalfield_confirm_delete.html:13
+#: .\templates\welcome\privatedocument_confirm_delete.html:13
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: .\templates\welcome\index.html:10
+msgid "Welcome to xyz.com, the cloud medicine card Platform."
+msgstr ""
+"Добро пожаловать на xyz.com, облачная платформа для вашей медицинской карты."
+
+#: .\templates\welcome\index.html:13
+msgid ""
+"Here you can store your medical record, such as various tests or doctor's "
+"reports."
+msgstr ""
+"Здесь вы можете хранить свои медицинские записи, например результаты "
+"исследований или заключения врачей."
+
+#: .\templates\welcome\index.html:23
+msgid "Briefly about how it works:"
+msgstr "Кратко о том как это работает:"
+
+#: .\templates\welcome\index.html:25
+msgid ""
+"Very often, people are faced with the need to find a new doctor and provide "
+"him with their medical history, for example, various tests or diagnoses of "
+"previous doctors. Often This analyzes and conclusions are stored with us in "
+"paper form or as a set of photographs on the phone, and this is not very "
+"convenient. In this service, you can create and store your medical record "
+"along with the application of all the conclusions of doctors, analyzes and "
+"necessary digital data, such as tomogram results, ultrasound photographs, "
+"digitized x-rays, and so on."
+msgstr ""
+"Очень часто люди сталкиваются с необходимостью найти себе нового лечащего "
+"врача и предоставить ему свою историю болезни, например результаты различных "
+"исследований или заключений предыдущих врачей. Очень часто эти анализы "
+"хранятся у нас в бумажной форме или как набор фотографий в телефоне и это не "
+"очень удобно. В этм сервисе вы можете создать и хранить свою медицинскую "
+"карту вместе с приложением всех заключений врачей, анализов и необходимых "
+"цифровых данных, например результаты томограммы, фотографии узи, "
+"оцифрованные рентгеновские снимки и так далее."
+
+#: .\templates\welcome\index.html:28
+msgid "A few words about the security of your data:"
+msgstr "Несколько слов о безопасноcти ваших данных"
+
+#: .\templates\welcome\index.html:29
+msgid ""
+"The xyz.com service stores all your digital data in a reliable cloud storage "
+"in compliance with the necessary security measures."
+msgstr ""
+"Сервис xyz.com хранит все ваши цифровые данные в надежном облачном хранилище "
+"с соблюдением необходимых мер безопасности."
+
+#: .\templates\welcome\index.html:30
+msgid "Only you will have access to your data."
+msgstr "Только вы будете иметь доступ к вашим данным."
+
+#: .\templates\welcome\index.html:31
+msgid "You can delete all your private information at any time."
+msgstr "Вы можете удалить всю вашу приватную информацию в любой момент."
+
+#: .\templates\welcome\index.html:32
+msgid ""
+"Under no circumstances will our service disclose your private information or "
+"digital documents."
+msgstr ""
+"Ни при каких обстоятельствах наш сервис не будет раскрывать вашу личную "
+"информацию или цифровые документы."
+
+#: .\templates\welcome\medicalestablishments_confirm_delete.html:7
+msgid "Are you sure you want to delete medical facility?"
+msgstr "Вы уверены, что хотите удалить это медицинское учреждение? "
+
+#: .\templates\welcome\medicalestablishments_confirm_delete.html:10
+msgid "Address: "
+msgstr "Адрес"
+
+#: .\templates\welcome\medicalestablishments_confirm_delete.html:11
+msgid "Site: "
+msgstr "Сайт: "
+
+#: .\templates\welcome\medicalestablishments_form.html:7
+msgid "Please add medical facilities using the form below."
+msgstr "Пожалуйста добавьте медицинское учреждение используя форму ниже."
+
+#: .\templates\welcome\medicalfield_confirm_delete.html:7
+msgid "Are you sure you want to delete medical field?"
+msgstr "Вы уверены, что хотите удалить эту область медицины? "
+
+#: .\templates\welcome\medicinecard_form.html:7
+msgid "Adding a new medicine card"
+msgstr "Добавление медицинской карты"
+
+#: .\templates\welcome\medicinecardinstance_form.html:4
+msgid "Editing a medical record entry"
+msgstr "Редактировать запись в медицинской карте"
+
+#: .\templates\welcome\medicinecardinstance_list.html:18
+msgid "Doctor"
+msgstr "Врач"
+
+#: .\templates\welcome\medicinecardinstance_list.html:24
+msgid "Short description"
+msgstr "Краткое описание"
+
+#: .\templates\welcome\medicinecardinstance_list.html:27
+#| msgid "Date: "
+msgid "Date"
+msgstr "Дата: "
+
+#: .\templates\welcome\medicinecardinstance_list.html:74
+msgid "Filters"
+msgstr "Фильтрация"
+
+#: .\templates\welcome\medicinecardinstance_list.html:77
+msgid "Search"
+msgstr "Искать"
+
+#: .\templates\welcome\privatedocument_confirm_delete.html:7
+msgid "Are you sure you want to delete document?"
+msgstr "Вы уверены, что хотите удалить этот документ? "
+
+#: .\venv\Lib\site-packages\bulma\templates\pagination.html:7
+#: .\venv\Lib\site-packages\bulma\templates\pagination.html:9
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: .\venv\Lib\site-packages\bulma\templates\pagination.html:14
+#: .\venv\Lib\site-packages\bulma\templates\pagination.html:16
+msgid "Next"
+msgstr "Следующая"
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\logged_out.html:5
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "Спасибо за использование нашего веб ресурса сегодня."
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_change_form.html:14
+msgid "Please correct the errors below."
+msgstr "Пожалуйста исправьте ошибки ниже."
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_change_form.html:18
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"Пожалуйста, введите свой старый пароль в целях безопасности, а затем дважды "
+"введите новый пароль, чтобы мы могли проверить, правильно ли вы ввели его."
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_confirm.html:9
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+"Пожалуйста, введите свой новый пароль дважды, чтобы мы могли убедиться, что "
+"Вы ввели его правильно."
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_done.html:8
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"Мы отправили вам инструкции по установке пароля по электронной почте, если "
+"аккаунт привязан к email который вы ввели. Вы должны получить инструкцию в "
+"ближайшее время."
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_done.html:9
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"Если вы не получили email, пожалуйста убедитесь что вы ввели адрес который "
+"вы использовали при регистрации, а также проверьте папку спам."
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at\n"
+"    %(site_name)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_email.html:9
+msgid "Your username, in case you've forgotten:"
+msgstr "Ваше имя пользователя, если Вы забыли:"
+
+#: .\venv\Lib\site-packages\bulma\templates\registration\password_reset_form.html:7
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+"Забыли свой пароль? Введите свой email адрес ниже и мы отправим вам письмо с "
+"инструкциями по смене пароля."
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
+msgid "Messages"
+msgstr "Сообщения"
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr "Карта сайта"
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr "Статические файлы"
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr "Синдикация"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:51
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:53
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:58
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:93
+#: .\venv\Lib\site-packages\django\forms\fields.py:674
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:150
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:161
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:262
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:269
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:278
+#: .\venv\Lib\site-packages\django\core\validators.py:288
+#: .\venv\Lib\site-packages\django\core\validators.py:311
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:296
+#: .\venv\Lib\site-packages\django\core\validators.py:312
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:306
+#: .\venv\Lib\site-packages\django\core\validators.py:310
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:340
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:346
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:379
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:388
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:398
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:413
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:432
+#: .\venv\Lib\site-packages\django\forms\fields.py:292
+#: .\venv\Lib\site-packages\django\forms\fields.py:327
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:439
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:444
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:506
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:559
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1214
+#: .\venv\Lib\site-packages\django\forms\models.py:772
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1216
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:101
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:102
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:103
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:104
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:108
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:127
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:955
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:956
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:958
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:999
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1093
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1188
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1190
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1312
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1193
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1310
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1314
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1318
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1437
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1439
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1584
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1587
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1637
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1660
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1726
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1728
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1766
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1768
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1851
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1866
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1874
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1905
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1985
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1986
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1988
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2039
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2052
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2065
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2079
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2111
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2177
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2179
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2182
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2287
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2309
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2374
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2376
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:226
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:375
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:18
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:20
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:808
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:810
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1066
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1120
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1121
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1163
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:165
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:54
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:247
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:401
+#: .\venv\Lib\site-packages\django\forms\fields.py:1144
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:425
+#: .\venv\Lib\site-packages\django\forms\fields.py:1145
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:453
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:487
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:488
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:548
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:549
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:550
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:552
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:555
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:616
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:778
+#: .\venv\Lib\site-packages\django\forms\fields.py:868
+#: .\venv\Lib\site-packages\django\forms\models.py:1334
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:869
+#: .\venv\Lib\site-packages\django\forms\fields.py:984
+#: .\venv\Lib\site-packages\django\forms\models.py:1333
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:985
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1203
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1233
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:84
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:230
+#: .\venv\Lib\site-packages\django\forms\forms.py:304
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:60
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:381
+#, python-format
+msgid "Please submit at most %d form."
+msgid_plural "Please submit at most %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:388
+#, python-format
+msgid "Please submit at least %d form."
+msgid_plural "Please submit at least %d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:420
+#: .\venv\Lib\site-packages\django\forms\formsets.py:427
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:767
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:771
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:777
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:786
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1127
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1214
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1336
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:198
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:403
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:404
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:405
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:712
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:713
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:714
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:839
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:868
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:885
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:887
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:889
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:891
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:893
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:895
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:72
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:73
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:78
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:79
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:150
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:152
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Monday"
+msgstr "Понедельник"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Wednesday"
+msgstr "Среда"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Thursday"
+msgstr "Четверг"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Friday"
+msgstr "Пятница"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Saturday"
+msgstr "Суббота"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:14
+msgid "January"
+msgstr "Январь"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:14
+msgid "February"
+msgstr "Февраль"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:14
+msgid "March"
+msgstr "Март"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:14
+msgid "April"
+msgstr "Апрель"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:14
+msgid "May"
+msgstr "Май"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:14
+msgid "June"
+msgstr "Июнь"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:15
+msgid "July"
+msgstr "Июль"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:15
+msgid "August"
+msgstr "Август"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:15
+msgid "September"
+msgstr "Сентябрь"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:15
+msgid "October"
+msgstr "Октябрь"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:15
+msgid "November"
+msgstr "Ноябрь"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "December"
+msgstr "Декабрь"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:37
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:38
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:73
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:242
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:261
+#: .\venv\Lib\site-packages\django\utils\timesince.py:94
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:120
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:61
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:111
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:338
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:594
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:628
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:54
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:67
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:154
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:40
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:42
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:80
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:207
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:222
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:231
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:240
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\welcome\filters.py:11
+msgid "1 month"
+msgstr "1 месяц"
+
+#: .\welcome\filters.py:12
+msgid "6 month"
+msgstr "6 месяцев"
+
+#: .\welcome\filters.py:13
+msgid "1 year"
+msgstr "1 год"
+
+#: .\welcome\filters.py:14
+msgid "2 year"
+msgstr "2 года"
+
+#: .\welcome\filters.py:15
+msgid "3 year"
+msgstr "3 года"
+
+#: .\welcome\filters.py:16
+msgid "5 year"
+msgstr "5 лет"
+
+#: .\welcome\forrms.py:13
+msgid "File too large. Size should not exceed 5 MB."
+msgstr "Файл слишком большой, максимальный размер файла 5 МБ."
+
+#: .\welcome\forrms.py:15
+msgid "This file is not allowed."
+msgstr "Этот файл не разрешон"
+
+#: .\welcome\forrms.py:38
+msgid "Date of medical analysis"
+msgstr "Дата проведения анализа"
+
+#: .\welcome\forrms.py:55 .\welcome\forrms.py:69
+msgid "Enter your date of birth"
+msgstr "Укажите дату вашего рождения"
+
+#: .\welcome\forrms.py:120
+msgid "You already have a medical facility with that name."
+msgstr "Вы уже имеете медицинское учреждение с таким именем"
+
+#: .\welcome\forrms.py:137
+msgid "You already have a doctor with this name."
+msgstr "Вы уже имеете врача с таким именем"
+
+#: .\welcome\forrms.py:154
+msgid "You already have a field of medicine with that name"
+msgstr "Вы уже имеете область медицины с таким именем"
+
+#: .\welcome\models.py:26
+#, python-format
+msgid "%(value)s Not realistic date of birth"
+msgstr ""
+
+#: .\welcome\models.py:31
+#, python-format
+msgid "%(value)s Date of birth is in the future"
+msgstr ""
+
+#: .\welcome\views.py:57
+msgid "To edit a medical card, you need to log in"
+msgstr ""
+"Для редактирования записей в медицинской карте вам нужно авторизоваться"
+
+#: .\welcome\views.py:61
+msgid "You do not have a medical card record to edit"
+msgstr "У вас нет записей в медицинской карте для редактирования"
+
+#: .\welcome\views.py:69
+msgid "You have successfully edited the medical card record"
+msgstr "Вы успешно отредактировали запись в медицинской карте"
+
+#: .\welcome\views.py:71
+msgid "Editing a medical card record"
+msgstr "Редактирование записи в медицинской карте"
+
+#: .\welcome\views.py:280
+msgid "Are you sure you want to delete the entry number"
+msgstr "Вы уверены, что хотите удалить записи с номерами: "
+
+#: .\welcome\views.py:282
+msgid " from a medical card record?"
+msgstr "из вашей медицинской карты?"
+
+#: .\welcome\views.py:287
+msgid " Attached documents will also be deleted along with this entry: "
+msgstr "Прикрепленные документы будут также удалены вместе с записью: "
+
+#: .\welcome\views.py:290
+msgid ""
+" All data will be deleted without the possibility of recovery. Click Delete "
+"to confirm."
+msgstr ""
+". Все данные будут удалены без возможности восстановления. Нажмите Удалить "
+"для подтверждения."
+
+#: .\welcome\views.py:324
+msgid "To edit an entry in the medical record, you must log in"
+msgstr ""
+"Для редактирования записей в медицинской карте вам нужно авторизоваться"
+
+#: .\welcome\views.py:327
+msgid "You do not have medicine card"
+msgstr "Вы не имеете медицинской карты"
+
+#: .\welcome\views.py:341
+msgid "Selecting an Entry"
+msgstr "Выберите запись"
+
+#: .\welcome\views.py:351
+msgid "Form for selecting an entry in a medical card record"
+msgstr "Форма выбора записи в медицинской карте"
+
+#: .\welcome\views.py:354
+msgid "You have not added any entry in the medical card record"
+msgstr "Вы еще не добавили ни одной записи в медицинскую карту"
+
+#: .\welcome\views.py:421
+msgid ""
+"Unfortunately, you have uploaded the maximum possible amount of documents, "
+"in order to upload new documents, delete some of the old documents or "
+"contact the project administration."
+msgstr ""
+"К сожалению вы загрузили максимально доступное количество документов для "
+"загрузки новых документов, пожалуйста удалите часть уже загруженных "
+"документов либо обратитесь к администрации проекта."
+
+#: .\welcome\views.py:437 .\welcome\views.py:440
+msgid "Add attachments to a medical card entry"
+msgstr "Добавление вложений к записи в медицинской карте"
+
+#: .\welcome\views.py:471
+msgid ""
+"To start using the system, you need to create a list of medical institutions "
+"and your medical card."
+msgstr ""
+"Для того чтобы начать пользоваться системой, вам нужно создать список "
+"медицинских учрежденийи вашу медицинскую карту"
+
+#: .\welcome\views.py:476
+msgid ""
+"You are on the main page of the project, my medical card, in order to start "
+"using the resource, please log in to the site."
+msgstr ""
+"Вы на главной странице проекта моя медицинская карта, для того чтобы начать "
+"пользоваться ресурсом пожалуйста авторизуйтесь."

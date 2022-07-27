@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load bulma_tags i18n %}
+{% load i18n %}
+{% block title %}Viewing a Single Record in a Medical card{% endblock %}
+
+{% block content %}
+    <div class="columns is-12">
+    <div class="column is-8">
+    <h4 class="title is-4">{{ temp }}</h4>
+    <h5 class="title is-5">{% trans 'Registration number: ' %}{{ mci.pk }}</h5>
+    <h5 class="title is-5">{% trans 'Date: '%}{{ mci.registration_at}}</h5>
+    <h5 class="title is-5">{% trans 'Short description: ' %}{{ mci.title }}</h5>
+    <h6 class="title is-6">{% trans 'Full years at the time the record was created: '%}{{ mci.p_age }}</h6>
+    <h6 class="title is-6">{% trans 'Medical field: '%} {{ mci.medical_field }}</h6>
+    <h6 class="title is-6">{% trans 'Attending doctor: '%}{{ mci.doctors }}</h6>
+    <h6 class="title is-6">{% trans 'Medical facility: ' %}{{ mci.medical_Establishments }}</h6>
+    <h6 class="title is-6">{% trans 'Description: ' %}</h6>
+    <h7 class="title is-6">{{ mci.description }}</h7>
+    <br>
+    <br>
+    <h4 class="title is-4">{% trans 'Attachments:' %}</h4>
+    <table class="table">
+
+    {% for document in documents %}
+        <tr>
+        <th>
+         {{ document.upload.name }}
+         </th>
+        <th>
+        <a href="{% url 'delete-document-from-mci-request' document.pk  document.mci.pk %}">{% trans 'Delete document' %}</a>
+        </th>
+        <th>
+        <a href="{{ document.upload.url}}" target="_blank" >{% trans 'Download document' %}</a>
+        </th>
+        </tr>
+    {% endfor %}
+
+    </table>
+    {% for document_url in documents_url %}
+        <img src="{{ document_url }}">
+    {% endfor %}
+
+
+    </div>
+    <div class="column">
+        {% if flag == None %}
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form|bulma }}
+                <button type="submit" class="button is-link">{% trans 'Upload' %}</button>
+            </form>
+            <br>
+            <a href="{% url 'show-mci-for-print' mci.pk %}" target="_blank">{% trans 'Print entity or export to PDF' %}</a>
+        {% endif %}
+    </div>
+    </div>
+{% endblock content %}

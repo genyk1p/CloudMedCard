@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bulma_tags %}
+
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+
+{% block content %}
+    <div class='notification is-warning'>
+        {% trans 'You already have a medical card.' %}
+    </div>
+{% endblock content %}

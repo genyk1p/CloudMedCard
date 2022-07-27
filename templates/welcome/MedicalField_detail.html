@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load bulma_tags %}
+{% load i18n %}
+{% block title %}{% trans 'Show medical fields' %}{% endblock %}
+
+{% block content %}
+    <h4 class="title is-4">{% trans 'Medical fields list:' %}</h4>
+    {% if object_list.count != 0 %}
+        <div class="columns">
+            <div class="column is-8">
+                <table class="table is-striped">
+                        <tr>
+                            <th>
+                                {% trans 'Name' %}
+                            </th>
+                            <th>
+                                {% trans 'Action' %}
+                            </th>
+                            <th>
+                                {% trans 'Action' %}
+                            </th>
+                        </tr>
+                        {% for mf in object_list %}
+                            <tr>
+                            <th>
+                                {{ mf.name }}
+                            </th>
+                            <th>
+                               <a HREF="{% url 'edit-medical-field' mf.pk %}">{% trans 'Edit' %}</a>
+                            </th>
+                            <th>
+                               <a HREF="{% url 'predelete-medical-field' mf.pk %}">{% trans 'Delete' %}</a>
+                            </th>
+                            </tr>
+                        {% endfor %}
+                </table>
+            </div>
+        </div>
+    {% else %}
+        <div class="column is-offset-1">
+            <h4 class="title is-4">{% trans 'You do not have doctors for edit.' %}</h4>
+        </div>
+    {% endif %}
+
+{% endblock content %}

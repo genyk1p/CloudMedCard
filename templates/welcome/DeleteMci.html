@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load bulma_tags i18n %}
+
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+
+{% block content %}
+    <div class="{{ notification_class }}">
+        {{var1}}
+    {% if flag == 0 %}
+    </div>
+       <form method="post" action="">
+        {% csrf_token %}
+        <input type="submit" class="button is-link" value='Удалить' />
+        <a class="button is-link" href="javascript:history.go(-1)">Cancel</a>
+        </form>
+    {% endif %}
+
+{% endblock content %}

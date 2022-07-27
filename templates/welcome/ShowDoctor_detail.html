@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load bulma_tags %}
+{% load i18n %}
+{% block title %}{% trans 'Show doctors' %}{% endblock %}
+
+{% block content %}
+    <h4 class="title is-4">{% trans 'Doctors list:' %}</h4>
+    {% if object_list.count != 0 %}
+    <div class="columns">
+        <div class="column is-8">
+            <table class="table is-striped">
+                    <tr>
+                        <th>
+                            {% trans 'Name' %}
+                        </th>
+                         <th>
+                            {% trans 'Phone number' %}
+                        </th>
+                        <th>
+                            {% trans 'Action' %}
+                        </th>
+                        <th>
+                            {% trans 'Action' %}
+                        </th>
+                    </tr>
+                    {% for doctor in object_list %}
+                        <tr>
+                        <th>
+                            {{ doctor.name }}
+                        </th>
+                        <th>
+                            {{ doctor.phone_number }}
+                        </th>
+                        <th>
+                           <a HREF="{% url 'edit-doctor' doctor.pk %}">{% trans 'Edit' %}</a>
+                        </th>
+                        <th>
+                           <a HREF="{% url 'predelete-doctor' doctor.pk %}">{% trans 'Delete' %}</a>
+                        </th>
+                        </tr>
+                    {% endfor %}
+            </table>
+        </div>
+        {% else %}
+        <div class="column is-offset-1">
+            <h4 class="title is-4">{% trans 'You do not have doctors for edit.' %}</h4>
+        </div>
+    </div>
+    {% endif %}
+
+{% endblock content %}

@@ -1,0 +1,375 @@
+{% extends 'base.html' %}
+{% load static bulma_tags %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% endblock title %}</title>
+  {% block css %}
+    {% font_awesome %}
+    <link rel="stylesheet" href="{% static 'bulma/css/style.min.css' %}">
+    {% block extra_css %}{% endblock extra_css %}
+  {% endblock css %}
+</head>
+<body>
+
+{% block header %}
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar-brand">
+
+        <div class="navbar-burger burger" data-target="navMenuExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+    </script>
+
+
+      <div id="navMenuExample" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link  is-active" href="{% url 'index' %}">
+                {% trans 'Main menu' %}
+            </a>
+            <div class="navbar-dropdown ">
+                <a class="navbar-item " href="{% url 'edit-mc' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Medical Card' %}</strong>
+                        <br>
+                        <small>{% trans 'Editing a medical card' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+                <a class="navbar-item " href="{% url 'show_all_doctor' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Doctors' %}</strong>
+                        <br>
+                        <small>{% trans 'Edit/View/Delete doctors' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+
+              <a class="navbar-item " href="{% url 'show-medical-establishments' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Medical facility' %}</strong>
+                        <br>
+                        <small>{% trans 'Edit/View/Delete medical facilities' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a class="navbar-item " href="{% url 'show-medical-field' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Medical field' %}</strong>
+                        <br>
+                        <small>{% trans 'Edit/View/Delete medical fields' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+                <a class="navbar-item " href="{% url 'show-all-medicine-card-instances' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Entries in the medical record' %}</strong>
+                        <br>
+                        <small>{% trans 'In this section, you can view the list of entries in the medical card record and edit the necessary' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-link">
+                {% trans 'Adding entries' %}
+            </div>
+            <div id="moreDropdown" class="navbar-dropdown ">
+              <a class="navbar-item " href="{% url 'mc-add' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Medical Card' %}</strong>
+                        <br>
+                        <small>{% trans 'Creating a new medical card' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+                <a class="navbar-item " href="{% url 'add-doctor' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Doctors' %}</strong>
+                        <br>
+                        <small>{% trans 'Addition of doctors who appear in the records' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+                <a class="navbar-item " href="{% url 'add-medical-establishments' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Medical facility' %}</strong>
+                        <br>
+                        <small>{% trans 'Adding a medical facility' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+                <a class="navbar-item " href="{% url 'add-medical-field' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Medical field' %}</strong>
+                        <br>
+                        <small>{% trans 'Adding a field of medicine that is used in your records, such as urology' %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+                <a class="navbar-item " href="{% url 'add-medicine-card-instance' %}">
+                <div class="level is-mobile">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <p>
+                        <strong>{% trans 'Entry in the medical record' %}</strong>
+                        <br>
+                        <small>{% trans "Adding an entry to the medical record, you can attach the results of studies or a doctor's opinion to this entry." %}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-right">
+                    <div class="level-item">
+                    <span class="icon has-text-info">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      <div class="navbar-end">
+
+
+        <div class="navbar-item">
+           {% trans "Change language" as Change %}
+            {% load bulma_tags %}
+            <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}">
+                <div class="select is-rounded">
+                <select name="language">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for language in languages %}
+                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %} input type="submit">
+                            {{ language.name_local }} ({{ language.code }})
+                        </option>
+                    {% endfor %}
+                </select>
+                </div>
+                <input type="submit" class='button is-primary' value='{{Change}}'>
+            </form>
+      </div>
+
+
+        <div class="navbar-end">
+          <div class="buttons">
+              {% if user.is_authenticated %}
+              <a class="button is-primary" href="{% url 'logout' %}">
+                <strong>Logout</strong>
+              </a>
+              {% else %}
+              <a class="button is-primary" href=" {% url 'signup' %} ">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light" href="{% url 'login'%}">
+              Log in
+              </a>
+              {% endif %}
+          </div>
+        </div>
+      </div>
+      </div>
+  </nav>
+  </div>
+{% endblock header %}
+
+{% block hero %}{% endblock hero %}
+
+<section class="section">
+  <div class="container">
+    {% block messages %}
+      {% if messages %}
+        <div class="messages columns is-desktop">
+          <div class="column is-4 is-offset-4">
+            {% for message in messages %}
+              <div class="message {% if message.tags %}is-{{ message.tags|bulma_message_tag }}{% endif %}">
+                <div class="message-body">{{ message }}</div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% endblock messages %}
+
+    {% block content_area %}
+      {% block content_title %}{% endblock content_title %}
+      {% block content %}{% endblock content %}
+    {% endblock content_area %}
+  </div>
+</section>
+
+{% block modal %}{% endblock modal %}
+
+{% block footer %}
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>{% trans 'Cloud medical record' %}</strong> by <strong>{% trans 'Evgen Kukoba' %}</strong>
+        </p>
+      </div>
+    </div>
+  </footer>
+{% endblock footer %}
+
+{% block javascript %}
+  {% block extra_javascript %}{% endblock extra_javascript %}
+{% endblock javascript %}
+</body>
+</html>

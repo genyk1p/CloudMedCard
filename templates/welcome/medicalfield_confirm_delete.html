@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bulma_tags %}
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+{% block content %}
+    <h5 class="title is-5">{% trans 'Are you sure you want to delete medical field?' %}</h5>
+    <h6 class="title is-6">{% trans 'Name: ' %}{{ medicalfield.name }}</h6>
+    <div class="column is-5">
+{% if form != None %}
+    <form method="post" action="">
+        {% csrf_token %}
+        <input type="submit" class="button is-link" value={% trans 'Confirm' %} />
+    </form>
+    {% endif %}
+    </div>
+{% endblock content %}

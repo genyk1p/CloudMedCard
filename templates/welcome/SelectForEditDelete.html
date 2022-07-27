@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load bulma_tags %}
+{% block title %}{% endblock %}
+{% block content %}
+    <h4 class="title is-4">{{ temp }}</h4>
+    {% if form != None %}
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form |bulma }}
+        <input type="submit" class="button is-link" value='Submit' />
+    </form>
+    {% endif %}
+{% endblock content %}

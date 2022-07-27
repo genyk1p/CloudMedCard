@@ -1,0 +1,47 @@
+{% load static %}
+{% load bulma_tags i18n %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  {% block css %}
+    {% font_awesome %}
+    <link rel="stylesheet" href="{% static 'bulma/css/style.min.css' %}">
+    {% block extra_css %}{% endblock extra_css %}
+  {% endblock css %}
+</head>
+<body>
+
+{% block title %}{% endblock %}
+
+{% block content %}
+    <div id="invoice">
+    <div class="columns is-12">
+        <div class="column is-10 is-offset-1">
+            <br>
+            <button class="button is-primary" onClick="javascript:print(document);">{% trans 'Print or export to PDF' %}</button>
+            <h4 class="title is-4">{{ temp }}</h4>
+            <h5 class="title is-5">{% trans 'Registration number: ' %}{{ mci.pk }}</h5>
+            <h5 class="title is-5">{% trans 'Date: '%}{{ mci.registration_at}}</h5>
+            <h5 class="title is-5">{% trans 'Short description: ' %}{{ mci.title }}</h5>
+            <h6 class="title is-6">{% trans 'Full years at the time the record was created: '%}{{ mci.p_age }}</h6>
+            <h6 class="title is-6">{% trans 'Medical field: '%} {{ mci.medical_field }}</h6>
+            <h6 class="title is-6">{% trans 'Attending doctor: '%}{{ mci.doctors }}</h6>
+            <h6 class="title is-6">{% trans 'Medical facility: ' %}{{ mci.medical_Establishments }}</h6>
+            <h6 class="title is-6">{% trans 'Description: ' %}</h6>
+            <h7 class="title is-6">{{ mci.description }}</h7>
+            <br>
+            {% for document_url in documents_url %}
+                 <img src="{{ document_url }}">
+            {% endfor %}
+
+        </div>
+    </div>
+
+</div>
+</body>
+{% endblock content %}
+</html>

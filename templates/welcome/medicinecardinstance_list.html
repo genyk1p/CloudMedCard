@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load bulma_tags %}
+{% load i18n %}
+{% block title %}Viewing a Single Record in a Medical Card{% endblock %}
+
+{% block content %}
+    <div class="columns">
+        <div class="column is-9">
+            <table class="table is-striped">
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            {% trans 'Medical facility' %}
+                        </th>
+                         <th>
+                            {% trans 'Doctor' %}
+                        </th>
+                        <th>
+                            {% trans 'Medical field' %}
+                        </th>
+                        <th>
+                            {% trans 'Short description' %}
+                        </th>
+                        <th>
+                            {% trans 'Date' %}
+                        </th>
+                        <th>
+                            View
+                        </th>
+                        <th>
+                            Edit
+                        </th>
+                        <th>
+                            Delete
+                        </th>
+                    </tr>
+                    {% for mci in filter.qs %}
+                        <tr >
+                        <th >
+                            <a HREF="{% url 'add-attach-medicine-card-instance' mci.pk %}">{{ mci.pk }}</a>
+                        </th>
+                        <th>
+                             {% autoescape off %}{{mci.medical_establishments.name}}{% endautoescape %}
+                        </th>
+                        <th>
+                            {{mci.doctors.name}}
+                        </th>
+                        <th>
+                            {{mci.medical_field.name}}
+                        </th>
+                        <th>
+                            {{ mci.title }}
+                        </th>
+                        <th>
+                            {{ mci.registration_at }}
+                        </th>
+                        <th>
+                            <a class="button is-link" href="{% url 'add-attach-medicine-card-instance' mci.pk %}">View</a>
+                        </th>
+                        <th>
+                            <a class="button is-link" href="{% url 'edit-medicine-card-instance' mci.pk %}">Edit</a>
+                        </th>
+                        <th>
+                            <a class="button is-link" href="{% url 'alert-delete-mci' mci.pk %}">Delete</a>
+                        </th>
+                        </tr>
+                    {% endfor %}
+            </table>
+        </div>
+        <div class="column is-3">
+                <form method="GET">
+                    <h5 class="title is-5">{% trans 'Filters' %}:</h5>
+                    {% csrf_token %}
+                    {{ filter.form|bulma }}
+                    <button type="submit" class="button is-link">{% trans 'Search' %}</button>
+                </form>
+        </div>
+    </div>
+
+{% endblock content %}

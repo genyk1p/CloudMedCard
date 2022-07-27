@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bulma_tags %}
+
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+
+{% block content %}
+    <div class='notification is-warning'>
+        {% trans 'There are several records in your medical card in which this doctor is indicated, in order to remove this doctor, first delete these records or specify a different doctor for them.' %}
+    </div>
+
+{% endblock content %}

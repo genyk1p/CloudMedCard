@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load bulma_tags i18n %}
+{% load i18n %}
+{% block title %}{% trans 'Viewing a Single Record' %}{% endblock %}
+
+{% block content %}
+    {% if var1 == 1 %}
+        <h4 class="title is-4">{{ temp }}</h4>
+        <div align="center">
+            <form method="post" action="">
+            {% csrf_token %}
+                <input type="submit" class="button is-link" value='Удалить' />
+                <a class="button is-link" href="javascript:history.go(-1)">{% trans 'Cancel' %}</a>
+            </form>
+        </div>
+    {% elif var1 == 0 %}
+        <div class="{{ notification_class }}">
+        {{var2}}
+        </div>
+        <a class="button is-link" href="{% url 'add-attach-medicine-card-instance' mci_pk %}">{% trans 'Back to medical record' %}</a>
+    {% endif %}
+
+
+{% endblock content %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load bulma_tags %}
+{% load i18n %}
+{% block title %}{% trans 'Editing a medical record entry' %}{% endblock %}
+
+{% block content %}
+    <h4 class="title is-4">{{ temp }}</h4>
+    {% if form != None %}
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form|bulma }}
+            <button type="submit" class="button is-link">Submit</button>
+        </form>
+    {% endif %}
+{% endblock content %}

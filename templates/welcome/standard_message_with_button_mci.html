@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+
+{% block content %}
+    <div class="{{ notification_class }}">
+        {{var1}}
+    </div>
+        <a class="button is-link" href="{% url 'add-attach-medicine-card-instance' mci_pk %}">Back to the entry in the medical record</a>
+
+{% endblock content %}

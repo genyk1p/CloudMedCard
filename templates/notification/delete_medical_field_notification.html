@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load bulma_tags %}
+
+{% block title %}{% endblock %}
+{% block Description %}{% endblock Description %}
+
+{% block content %}
+    <div class='notification is-warning'>
+        {% trans 'There are several records in your medical record in which this field of medicine is indicated, in order to delete this field of medicine, first delete these records or specify a different field of medicine for them.' %}
+    </div>
+
+{% endblock content %}
